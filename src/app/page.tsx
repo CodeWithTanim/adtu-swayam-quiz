@@ -35,13 +35,13 @@ export default function HomePage() {
     setServerError("");
 
     if (!enrollment.trim()) {
-      setFormatError("Please enter your Enrollment Number or 'TEST'.");
+      setFormatError("Please enter your Enrollment Number.");
       return;
     }
 
     if (!validateEnrollment(enrollment)) {
       setFormatError(
-        "Invalid format. Enter ADTU/0/2023-27/BTCS/XXX, ADTU/1/2023-27/BTCS/XXX, ADTU/L/0/2023-27/BTCS/XXX (000-300), or 'TEST'."
+        "Invalid format. Enter ADTU/0/2023-27/BTCS/XXX, ADTU/1/2023-27/BTCS/XXX, or ADTU/L/0/2023-27/BTCS/XXX (000-300)."
       );
       return;
     }
@@ -159,22 +159,12 @@ export default function HomePage() {
                     if (formatError) setFormatError("");
                     if (serverError) setServerError("");
                   }}
-                  placeholder="e.g. ADTU/0/2023-27/BTCS/042 or TEST"
+                  placeholder="e.g. ADTU/0/2023-27/BTCS/042"
                   className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/50 text-slate-900 placeholder-slate-400 font-mono text-sm tracking-wide uppercase transition-all focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-900 focus:border-transparent shadow-xs"
                   autoComplete="off"
                   required
                 />
               </div>
-
-              {/* Dynamic feedback indicator for TEST account */}
-              {isTest && (
-                <div className="mt-2 text-xs text-blue-800 bg-blue-50/80 border border-blue-200/60 p-2.5 rounded-lg flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-blue-600 shrink-0" />
-                  <span>
-                    <strong>Test Mode Enabled:</strong> 5 questions will be provided to quickly verify the test flow.
-                  </span>
-                </div>
-              )}
 
               {formatError && (
                 <p className="mt-2 text-xs text-rose-600 font-medium bg-rose-50 border border-rose-200 p-2.5 rounded-lg flex items-start gap-1.5">
