@@ -24,28 +24,13 @@ export async function POST(req: NextRequest) {
 
     const isTestAccount = enrollment === "TEST";
 
-    // For test account: if user wants to test multiple times, delete old TEST run
-    if (isTestAccount) {
-      await QuizSubmission.deleteMany({ enrollmentNumber: "TEST" });
-    }
-
+    // Check for an active IN_PROGRESS session
     const existingSubmission = await QuizSubmission.findOne({
       enrollmentNumber: enrollment,
+      status: "IN_PROGRESS",
     });
 
-    if (existingSubmission && !isTestAccount) {
-      if (existingSubmission.status !== "IN_PROGRESS") {
-        return NextResponse.json(
-          {
-            error:
-              "You have already attempted or completed this exam. Retakes are not permitted.",
-            status: existingSubmission.status,
-            completed: true,
-          },
-          { status: 403 }
-        );
-      }
-
+    if (existingSubmission) {
       // Check if time expired (1 hour = 3600 seconds)
       const now = new Date();
       const elapsedSeconds = Math.floor(
@@ -57,51 +42,50 @@ export async function POST(req: NextRequest) {
         existingSubmission.status = "EXPIRED";
         existingSubmission.submittedAt = now;
         await existingSubmission.save();
-        return NextResponse.json(
-          {
-            error: "Exam duration (1 hour) has expired.",
-            status: "EXPIRED",
-            completed: true,
-          },
-          { status: 403 }
-        );
+        // Old session expired, fall through to create a fresh attempt
+      } else {
+        // Resume active session
+        const qMap = new Map(ALL_QUESTIONS.map((q) => [q.id, q]));
+        const orderedQuestions = existingSubmission.questionOrder
+          .map((id: number) => qMap.get(id))
+          .filter(Boolean);
+
+        const response = NextResponse.json({
+          success: true,
+          isResumed: true,
+          enrollmentNumber: enrollment,
+          startedAt: existingSubmission.startedAt,
+          remainingSeconds,
+          tabSwitchCount: existingSubmission.tabSwitchCount || 0,
+          savedAnswers: Object.fromEntries(existingSubmission.answers || []),
+          questions: sanitizeQuestions(orderedQuestions as any),
+        });
+
+        response.cookies.set("adtu_enrollment", enrollment, {
+          path: "/",
+          httpOnly: true,
+          sameSite: "lax",
+          maxAge: 3600 * 24,
+        });
+
+        return response;
       }
-
-      const qMap = new Map(ALL_QUESTIONS.map((q) => [q.id, q]));
-      const orderedQuestions = existingSubmission.questionOrder
-        .map((id: number) => qMap.get(id))
-        .filter(Boolean);
-
-      const response = NextResponse.json({
-        success: true,
-        isResumed: true,
-        enrollmentNumber: enrollment,
-        startedAt: existingSubmission.startedAt,
-        remainingSeconds,
-        tabSwitchCount: existingSubmission.tabSwitchCount || 0,
-        savedAnswers: Object.fromEntries(existingSubmission.answers || []),
-        questions: sanitizeQuestions(orderedQuestions as any),
-      });
-
-      response.cookies.set("adtu_enrollment", enrollment, {
-        path: "/",
-        httpOnly: true,
-        sameSite: "lax",
-        maxAge: 3600 * 24,
-      });
-
-      return response;
     }
 
-    // New Attempt:
-    // If TEST account, pick 5 questions (e.g. first 5 after shuffle)
-    let questionsPool = ALL_QUESTIONS;
-    const shuffledQuestions = shuffleArrayWithSeed(questionsPool, enrollment);
+    // New Attempt: Every attempt gets fresh shuffled questions with timestamp seed
+    const attemptSeed = `${enrollment}_${Date.now()}`;
+    const shuffledQuestions = shuffleArrayWithSeed(ALL_QUESTIONS, attemptSeed);
     const assignedQuestions = isTestAccount
       ? shuffledQuestions.slice(0, 5)
       : shuffledQuestions;
 
     const questionOrder = assignedQuestions.map((q) => q.id);
+
+    // If there were any previous incomplete sessions, clean them up or create new record
+    await QuizSubmission.deleteMany({
+      enrollmentNumber: enrollment,
+      status: "IN_PROGRESS",
+    });
 
     const newSubmission = await QuizSubmission.create({
       enrollmentNumber: enrollment,

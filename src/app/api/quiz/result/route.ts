@@ -21,21 +21,28 @@ export async function GET(req: NextRequest) {
     const enrollment = normalizeEnrollment(rawEnrollment);
     await connectToDatabase();
 
+    // Find the latest completed/submitted submission for this candidate
     const submission = await QuizSubmission.findOne({
       enrollmentNumber: enrollment,
-    });
+      status: { $in: ["COMPLETED", "EXPELLED", "EXPIRED"] },
+    }).sort({ createdAt: -1 });
 
     if (!submission) {
+      // Check if an IN_PROGRESS session exists
+      const inProgress = await QuizSubmission.findOne({
+        enrollmentNumber: enrollment,
+        status: "IN_PROGRESS",
+      });
+      if (inProgress) {
+        return NextResponse.json(
+          { error: "Exam is currently in progress." },
+          { status: 400 }
+        );
+      }
+
       return NextResponse.json(
         { error: "No submission record found for this enrollment number." },
         { status: 404 }
-      );
-    }
-
-    if (submission.status === "IN_PROGRESS") {
-      return NextResponse.json(
-        { error: "Exam is currently in progress." },
-        { status: 400 }
       );
     }
 

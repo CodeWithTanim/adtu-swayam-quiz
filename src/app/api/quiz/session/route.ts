@@ -18,9 +18,10 @@ export async function GET(req: NextRequest) {
     const enrollment = normalizeEnrollment(rawEnrollment);
     await connectToDatabase();
 
+    // Get the latest submission for this candidate
     const submission = await QuizSubmission.findOne({
       enrollmentNumber: enrollment,
-    });
+    }).sort({ createdAt: -1 });
 
     if (!submission) {
       return NextResponse.json({ authenticated: false }, { status: 404 });

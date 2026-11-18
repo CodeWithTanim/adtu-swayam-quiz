@@ -250,6 +250,15 @@ function ResultContent() {
                   <span>Candidate: <strong className="font-mono text-slate-900">{data.enrollmentNumber}</strong></span>
                   <span>Tab Switches: <strong className={data.tabSwitchCount >= 2 ? "text-rose-600" : "text-slate-900"}>{data.tabSwitchCount}</strong></span>
                 </div>
+
+                <div className="col-span-2 sm:col-span-3 pt-1">
+                  <Button
+                    onClick={() => router.push("/")}
+                    className="w-full bg-blue-900 hover:bg-blue-800 text-white font-bold text-xs h-10 rounded-xl flex items-center justify-center gap-1.5 cursor-pointer shadow-sm"
+                  >
+                    Take Another Test / Retake Exam
+                  </Button>
+                </div>
               </div>
             </div>
           </CardContent>

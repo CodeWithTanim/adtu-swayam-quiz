@@ -22,24 +22,16 @@ export async function POST(req: NextRequest) {
     const enrollment = normalizeEnrollment(rawEnrollment);
     await connectToDatabase();
 
+    // Find the latest active submission for this enrollment number
     const submission = await QuizSubmission.findOne({
       enrollmentNumber: enrollment,
-    });
+      status: "IN_PROGRESS",
+    }).sort({ createdAt: -1 });
 
     if (!submission) {
       return NextResponse.json(
-        { error: "Quiz session not found." },
+        { error: "Active quiz session not found." },
         { status: 404 }
-      );
-    }
-
-    if (submission.status !== "IN_PROGRESS") {
-      return NextResponse.json(
-        {
-          error: "Exam has already been submitted or concluded.",
-          status: submission.status,
-        },
-        { status: 400 }
       );
     }
 

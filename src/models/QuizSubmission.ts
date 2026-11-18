@@ -18,7 +18,6 @@ const QuizSubmissionSchema = new Schema<IQuizSubmission>(
     enrollmentNumber: {
       type: String,
       required: true,
-      unique: true,
       index: true,
       trim: true,
       uppercase: true,

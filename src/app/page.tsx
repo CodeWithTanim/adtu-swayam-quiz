@@ -281,7 +281,7 @@ export default function HomePage() {
             <div className="flex items-start gap-2.5">
               <span className="w-2 h-2 rounded-full bg-blue-600 mt-1.5 shrink-0" />
               <span>
-                <strong>SINGLE ATTEMPT RESTRICTION:</strong> Each enrollment number (<code>{normalizeEnrollment(enrollment)}</code>) can only take the test once. No second attempts are granted.
+                <strong>MULTIPLE ATTEMPTS ALLOWED:</strong> You can practice and take this assessment multiple times to test and improve your knowledge.
               </span>
             </div>
             <div className="flex items-start gap-2.5">
