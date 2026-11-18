@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "week": "Week 1",
+    "questionNumber": 1,
+    "question": "The purpose of human factors is to",
+    "options": {
+      "A": "Design environments that fit the limitations and capabilities of the user.",
+      "B": "Develop environments that limit human function.",
+      "C": "Increase individuals' personal capabilities.",
+      "D": "Train individuals to monitor computers."
+    },
+    "correctAnswer": "A",
+    "explanation": "Human factors focuses on designing tools, systems, and environments according to human capabilities and limitations. Instead of requiring users to adapt completely to technology, the environment should accommodate characteristics such as perception, attention, memory, physical strength, and motor abilities. This approach improves usability, performance, and safety while reducing human error. Therefore, designing environments that appropriately fit the capabilities and limitations of users represents the fundamental purpose of human factors (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 2,
+    "week": "Week 1",
+    "questionNumber": 2,
+    "question": "Human factors is",
+    "options": {
+      "A": "Aimed at taking advantage of individuals' limitations.",
+      "B": "Applying limits to human behavior.",
+      "C": "Applying knowledge of the limits of behavior.",
+      "D": "Used to improve system efficiency by limiting behavior."
+    },
+    "correctAnswer": "C",
+    "explanation": "Human factors uses scientific knowledge about human behaviour, abilities, and limitations when designing systems and environments. It does not impose limits on people or deliberately restrict their behaviour. Instead, limitations in attention, perception, memory, information processing, decision-making, and motor performance are considered during design. Understanding these limitations allows designers to create systems that are safer and easier to operate. Therefore, human factors involves applying knowledge about the limits of human behaviour. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 3,
+    "week": "Week 1",
+    "questionNumber": 3,
+    "question": "Problems encountered by systems include",
+    "options": {
+      "A": "Goal identification and development.",
+      "B": "Goal identification and system development.",
+      "C": "Goal and system development.",
+      "D": "System development and analysis."
+    },
+    "correctAnswer": "A",
+    "explanation": "A system is created to accomplish a particular goal or set of goals. Therefore, an important problem involves correctly identifying what the system is expected to achieve and developing it accordingly. System components are interconnected, meaning that changes in one component may affect other components and influence achievement of the overall goal. Consequently, proper goal identification and development are essential when designing and evaluating systems from a human factors perspective. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 4,
+    "week": "Week 1",
+    "questionNumber": 4,
+    "question": "The impetus for the growth and emergence of human factors as a discipline occurred",
+    "options": {
+      "A": "After psychometricians created tests for selection.",
+      "B": "As a result of Gilbreth's design of the scaffold.",
+      "C": "Due to practical needs, technological advancements, and linguistic developments during WWII.",
+      "D": "During Taylor's study of shovel size."
+    },
+    "correctAnswer": "C",
+    "explanation": "World War II created major practical problems because increasingly complex military equipment had to be operated accurately and safely. High rates of aircraft accidents and equipment-related errors encouraged experimental psychologists to apply knowledge of sensation, perception, learning, and human performance to radar, sonar, weapons, and cockpit design. These wartime demands demonstrated that better equipment design, rather than only better selection and training, was necessary and strongly contributed to the growth of human factors. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 5,
+    "week": "Week 1",
+    "questionNumber": 5,
+    "question": "The beginning of human factors",
+    "options": {
+      "A": "Can be traced to the Age of Tools when bones were used as scoops.",
+      "B": "Was established during WWI.",
+      "C": "Was established during WWII.",
+      "D": "Was not recognized by the engineering profession."
+    },
+    "correctAnswer": "A",
+    "explanation": "Although human factors became formally established as a scientific discipline much later, its basic idea can be traced to early human history. Humans have always modified tools and environments to make activities easier and more efficient. Early ancestors fashioned animal bones into useful tools, demonstrating an early attempt to adapt objects according to human needs. Thus, the underlying principle of human factors existed long before its formal development as a professional discipline. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 6,
+    "week": "Week 1",
+    "questionNumber": 6,
+    "question": "During the Age of Power (Power Revolution, 1870–1945), several breakthroughs occurred including",
+    "options": {
+      "A": "The emphasis of designing the job to fit the individuals.",
+      "B": "Gilbreth's development of tool design procedures.",
+      "C": "The introduction of better masonry materials and tools.",
+      "D": "Taylor's idea of scientific management."
+    },
+    "correctAnswer": "D",
+    "explanation": "During the Age of Power, Frederick W. Taylor systematically investigated how workers performed different tasks. He examined physical movements, productivity, work-rest schedules, and even the appropriate size and shape of shovels. Taylor called this approach scientific management, which involved applying scientific methods to determine more efficient ways of performing work. His studies became an important historical foundation for human factors because they demonstrated that work methods and tools could be systematically redesigned to improve performance. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 7,
+    "week": "Week 1",
+    "questionNumber": 7,
+    "question": "Human factors emerged as a discipline due to",
+    "options": {
+      "A": "The interest in testing human performance and sensation and perception, which developed near the end of WWII.",
+      "B": "Paul M. Fitts' declaration that more research was needed in the areas of memory, learning, and cognition.",
+      "C": "Psychometricians' need to develop selection tests.",
+      "D": "Taylor's study of shovel size."
+    },
+    "correctAnswer": "A",
+    "explanation": "During World War II, experimental psychologists increasingly studied human performance in complex military environments. Research examined sensation, perception, learning, memory, and later cognition to determine why operators experienced difficulties with aircraft, radar, sonar, and other equipment. This research shifted attention from simply selecting or training better operators toward designing equipment according to human capabilities and limitations. These developments contributed directly to the emergence of engineering psychology and eventually human factors as an independent discipline. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 8,
+    "week": "Week 1",
+    "questionNumber": 8,
+    "question": "Given your knowledge of human factors, you are assisting your grandmother with her iPad, as she is trouble using it. You suspect that",
+    "options": {
+      "A": "She just does not understand the newer technology and you need to work the iPad for her.",
+      "B": "Her motor skills are not appropriate for interacting with the iPad, but some physical therapy can correct this.",
+      "C": "She needs new glasses.",
+      "D": "Some adjustments to the display and layout of the icons on her iPad would greatly help her understand and use the iPad."
+    },
+    "correctAnswer": "D",
+    "explanation": "Human factors emphasise adapting technology to the characteristics of the user. Older adults may differ from younger users in vision, motor abilities, information-processing speed, or familiarity with technology. Therefore, increasing icon size, improving spacing, simplifying the screen layout, and making information easier to identify may improve usability. The appropriate solution is to modify the interface according to the user's capabilities rather than assuming that the user herself is the primary source of difficulty. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 9,
+    "week": "Week 1",
+    "questionNumber": 9,
+    "question": "A human factors specialist",
+    "options": {
+      "A": "Must have a PhD in psychology.",
+      "B": "Studies only ergonomics.",
+      "C": "Is an engineer.",
+      "D": "May come from many different disciplines, including psychology, engineering, and architecture."
+    },
+    "correctAnswer": "D",
+    "explanation": "Human factors is an interdisciplinary field because understanding human- system interaction requires knowledge from several disciplines. Human factors specialists may have backgrounds in psychology, engineering, architecture, computer science, biological sciences, or related fields. Psychology contributes knowledge about cognition and behaviour, while engineering and design contribute knowledge about systems and technology. Therefore, a human factors specialist need not be exclusively a psychologist or an engineer and may enter the field from different academic backgrounds. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 10,
+    "week": "Week 1",
+    "questionNumber": 10,
+    "question": "A human factors specialist working in the realm of education is most likely to be",
+    "options": {
+      "A": "Creating continuing education courses.",
+      "B": "Designing curricula for HF programs.",
+      "C": "Developing computer-generated grading systems.",
+      "D": "Establishing the learning criteria for training programs related to aviation psychology."
+    },
+    "correctAnswer": "C",
+    "explanation": "Human factors can be applied to educational technologies by improving usability, learning, information presentation, and interaction with computer-based systems. Educational applications discussed in the book include computer-generated grading, multimedia classrooms, distance education, and technology designed for learners of different ages. Developing a computer-generated grading system therefore represents a direct human factors application because the specialist can examine how users interact with the system and improve its accuracy, efficiency, accessibility, and ease of use. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 11,
+    "week": "Week 2",
+    "questionNumber": 1,
+    "question": "Research methods",
+    "options": {
+      "A": "Cover the methods for theory development.",
+      "B": "Focuses mainly on inferential statistics.",
+      "C": "Includes the methods of data collection and analysis.",
+      "D": "Must include some form of experimentation."
+    },
+    "correctAnswer": "C",
+    "explanation": "Research methods provide systematic procedures for gathering, organizing, and analysing information. They are not limited to experimentation or inferential statistics. After developing a hypothesis, researchers determine an appropriate method and means of analysis, collect the relevant data, and evaluate the findings. Thus, research methods encompass both data collection and data analysis, allowing researchers to obtain objective evidence and draw meaningful conclusions about human behaviour and performance. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 12,
+    "week": "Week 2",
+    "questionNumber": 2,
+    "question": "When conducting research that addresses real-world problems, this is",
+    "options": {
+      "A": "Applied research.",
+      "B": "Basic research.",
+      "C": "Quasi-experimental research.",
+      "D": "A study."
+    },
+    "correctAnswer": "A",
+    "explanation": "Applied research is conducted specifically to address or solve an actual real-world problem. Unlike basic research, which primarily seeks knowledge and understanding of underlying mechanisms, applied research uses scientific evidence to improve practical situations. In human factors, examples include improving navigation, reducing driving errors, or designing safer equipment. Therefore, when the purpose of research is to provide a solution to a practical problem, it is classified as applied research. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 13,
+    "week": "Week 2",
+    "questionNumber": 3,
+    "question": "Students are expected to propose an applied research project in their human factors course. Which of the following best represents applied research?",
+    "options": {
+      "A": "Studying the impact of noise on levels of irritability.",
+      "B": "Determining the best level of lighting for enhancing learning when studying on computers.",
+      "C": "Investigating the impact of computer screen brightness on legibility.",
+      "D": "Evaluating the impact of an office layout on mood."
+    },
+    "correctAnswer": "B",
+    "explanation": "Applied research focuses on solving a specific practical or design-related problem. Determining the optimum lighting level for students using computers has an immediate practical objective: improving the learning environment. The findings can directly guide the design of educational settings. Human factors research qualifies as applied research when it contributes to solving an actual design problem rather than merely increasing theoretical understanding. Therefore, determining the best lighting level for computer-based learning is the strongest example. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 14,
+    "week": "Week 2",
+    "questionNumber": 4,
+    "question": "When you evaluate a situation without manipulating any variables, this is considered a(n)",
+    "options": {
+      "A": "Basic study.",
+      "B": "Experiment.",
+      "C": "Quasi-experiment.",
+      "D": "Study."
+    },
+    "correctAnswer": "D",
+    "explanation": "A study involves examining a situation without deliberately manipulating or controlling participants' experiences. Researchers may observe behaviour, administer questionnaires, or examine naturally occurring conditions. In contrast, an experiment requires the researcher to manipulate one or more variables and control participants' exposure to different conditions. Therefore, when researchers simply evaluate an existing situation without changing any variable, the investigation is appropriately classified as a study rather than an experiment. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 15,
+    "week": "Week 2",
+    "questionNumber": 5,
+    "question": "You decide to study the differences between individuals in the college of engineering versus the college of arts and sciences. Given this comparison, your research is considered a(n)",
+    "options": {
+      "A": "Basic study.",
+      "B": "Experiment.",
+      "C": "Quasi-experiment.",
+      "D": "Study."
+    },
+    "correctAnswer": "C",
+    "explanation": "This is a quasi-experiment because the researcher compares groups that already exist rather than randomly assigning participants to them. Students have already selected whether they belong to engineering or arts and sciences, so their group membership is not manipulated by the researcher. Quasi-experiments resemble experiments because groups are compared, but they lack complete experimental control and random assignment. Consequently, differences found between the groups cannot automatically be interpreted as causal effects. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 16,
+    "week": "Week 2",
+    "questionNumber": 6,
+    "question": "Which of the following best describes a quasi-experiment?",
+    "options": {
+      "A": "Students at your university are randomly assigned to different conditions.",
+      "B": "To investigate worker's perceptions of safety, you distribute a survey to all workers in the company.",
+      "C": "You will expose individuals to different room colors and expect differences in responses based on whether they live in the north or south.",
+      "D": "You will manipulate the layout complexity of a path and randomly assign individuals to the levels."
+    },
+    "correctAnswer": "C",
+    "explanation": "A quasi-experiment involves comparison of conditions in which at least one important grouping variable is naturally occurring rather than randomly assigned. Here, participants may experience different room colours, but whether they live in the north or south is a pre-existing characteristic that the researcher cannot manipulate. Therefore, the design lacks complete experimental control. Options involving random assignment represent true experiments, while merely distributing a survey represents a nonexperimental study.(Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 17,
+    "week": "Week 2",
+    "questionNumber": 7,
+    "question": "In your research, you propose that subjecting individuals to a loud, hot environment will lower performance. This is a",
+    "options": {
+      "A": "Hypothesis.",
+      "B": "Parsimonious explanation.",
+      "C": "Replicable result.",
+      "D": "Theory."
+    },
+    "correctAnswer": "A",
+    "explanation": "A hypothesis is a specific and testable prediction about an expected relationship between variables. The statement predicts that exposure to a loud and hot environment will result in lower performance, meaning it specifies both the environmental condition and the expected outcome. Because this prediction can be empirically tested by manipulating environmental conditions and measuring performance, it qualifies as a hypothesis. A theory is broader and usually provides an explanation from which individual hypotheses can be derived. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 18,
+    "week": "Week 2",
+    "questionNumber": 8,
+    "question": "The sample size you need for your research will be",
+    "options": {
+      "A": "Larger if the effect size is expected to be small.",
+      "B": "Larger if you achieve a strong power analysis.",
+      "C": "Smaller if the effect size is expected to be small.",
+      "D": "Smaller if you achieve a weak power analysis."
+    },
+    "correctAnswer": "A",
+    "explanation": "Effect size represents the magnitude of the expected difference or relationship in a study. When the expected effect is large, it can generally be detected with fewer participants. However, a small effect is more difficult to distinguish from normal variation in the data, so a larger sample is required to detect it reliably. Researchers commonly use power analysis to determine an adequate sample size based partly on the expected effect size. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 19,
+    "week": "Week 2",
+    "questionNumber": 9,
+    "question": "You hypothesize that older adults will have slower reaction times in your driving simulation research. Your hypothesis is the",
+    "options": {
+      "A": "Alternative hypothesis.",
+      "B": "Null hypothesis.",
+      "C": "Operationalized hypothesis.",
+      "D": "Parsimonious hypothesis."
+    },
+    "correctAnswer": "A",
+    "explanation": "The alternative hypothesis states the relationship or difference that the researcher expects to observe. Here, the researcher predicts specifically that older adults will show slower reaction times, which represents an expected difference in performance. The null hypothesis would instead predict no difference in reaction times. Research generally tests the null hypothesis statistically and, if it can be rejected, the findings are interpreted as supporting the proposed alternative hypothesis. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 20,
+    "week": "Week 2",
+    "questionNumber": 10,
+    "question": "Nonexperimental methods",
+    "options": {
+      "A": "Include the use of observation, interview, and/or surveys.",
+      "B": "May use any sample available.",
+      "C": "Obtain causative data.",
+      "D": "Use simulation and manipulation of certain variables."
+    },
+    "correctAnswer": "A",
+    "explanation": "Nonexperimental methods collect information without deliberately manipulating an independent variable. Common techniques include observation, interviews, surveys, questionnaires, and examination of existing records. These methods are useful for describing behaviour, identifying patterns, and examining relationships between variables. However, because variables are not experimentally manipulated and controlled, nonexperimental approaches generally cannot establish cause-and-effect relationships. Simulation and deliberate manipulation of variables are more characteristic of experimental approaches rather than nonexperimental research. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 21,
+    "week": "Week 3",
+    "questionNumber": 1,
+    "question": "Stop and Yield signs are examples of",
+    "options": {
+      "A": "Dynamic displays",
+      "B": "Static displays",
+      "C": "Visual alarms",
+      "D": "Warning instructions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Static displays present information that remains essentially unchanged over time. Stop and Yield signs have fixed shapes, colours, symbols, and meanings, unlike dynamic displays that continuously change to represent system conditions. The book specifically identifies road signs such as Stop and Yield signs as examples of static visual displays used to communicate information consistently to users. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 22,
+    "week": "Week 3",
+    "questionNumber": 2,
+    "question": "Concerns regarding the spacing between characters or lines, and line length are an aspect of",
+    "options": {
+      "A": "Conspicuity",
+      "B": "Visibility",
+      "C": "Legibility",
+      "D": "Readability"
+    },
+    "correctAnswer": "D",
+    "explanation": "Readability refers to how easily continuous text can be read and understood. It is influenced by characteristics such as spacing between characters and lines, line length, font size, and the use of uppercase or lowercase letters. Therefore, concerns about spacing and line length relate directly to readability rather than visibility, conspicuity, or individual character legibility. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 23,
+    "week": "Week 3",
+    "questionNumber": 3,
+    "question": "Symbols or pictographs are not recommended for",
+    "options": {
+      "A": "Depicting concrete objects or actions",
+      "B": "Depicting objects or actions that do not need translation",
+      "C": "Depicting abstract concepts",
+      "D": "When the referent is clearly identifiable"
+    },
+    "correctAnswer": "C",
+    "explanation": "Symbols and pictographs are most effective when they represent concrete objects or easily recognizable actions. Their advantage is that they can communicate information quickly and often without language translation. However, abstract or complex concepts may not have an obvious visual representation, making the symbol difficult to understand or interpret correctly. Therefore, pictographs are less suitable for abstract concepts. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 24,
+    "week": "Week 3",
+    "questionNumber": 4,
+    "question": "To calculate the visual angle subtended by an object you need to know",
+    "options": {
+      "A": "Both its distance from the observer and the width or height of the object",
+      "B": "Only its distance",
+      "C": "Either its height or width, whichever is most relevant",
+      "D": "None of the above"
+    },
+    "correctAnswer": "A",
+    "explanation": "Visual angle describes the apparent size of an object on the observer's retina. It depends not only on the physical size of the stimulus but also on how far it is from the observer. Therefore, calculating visual angle requires information about both the object's height or width and its viewing distance from the observer. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 25,
+    "week": "Week 3",
+    "questionNumber": 5,
+    "question": "________ displays are recommended if the operator needs to monitor trends or rates of change but not precise numerical values.",
+    "options": {
+      "A": "Analog",
+      "B": "Digital",
+      "C": "Static",
+      "D": "Multidimensional"
+    },
+    "correctAnswer": "A",
+    "explanation": "Analog displays are particularly effective when an operator needs to observe trends, direction, or rates of change. The movement and position of a pointer provide an immediate visual indication of whether values are increasing or decreasing. Digital displays are more appropriate for obtaining precise numerical values, whereas analog displays communicate changing patterns and trends more efficiently. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 26,
+    "week": "Week 3",
+    "questionNumber": 6,
+    "question": "The duplicity theory of vision states that",
+    "options": {
+      "A": "The eye contains two functionally and anatomically distinct visual systems.",
+      "B": "Impulses from photoreceptors are initially processed in the retina, but we see with the brain.",
+      "C": "The eye contains two functionally and anatomically distinct types of cones.",
+      "D": "That there are just two types of rod photoreceptors."
+    },
+    "correctAnswer": "A",
+    "explanation": "The duplicity theory proposes that human vision involves two distinct visual systems. The scotopic system, mediated mainly by rods, supports vision under low illumination, while the photopic system, mediated by cones, functions under brighter conditions and supports colour vision and high visual acuity. Thus, vision operates through two functionally and anatomically different systems. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 27,
+    "week": "Week 3",
+    "questionNumber": 7,
+    "question": "Unlike proprioceptive cues, kinesthetic cues allow you to sense the _____ of your limbs.",
+    "options": {
+      "A": "Length",
+      "B": "Orientation",
+      "C": "Position",
+      "D": "Movement"
+    },
+    "correctAnswer": "D",
+    "explanation": "Kinesthetic cues provide information about the movement of the body or limbs, allowing individuals to sense whether a limb is moving or being moved. Proprioceptive cues, in contrast, provide information about the static position of the body and limbs in space. Therefore, the key distinction is that kinesthesia primarily provides information about movement. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 28,
+    "week": "Week 3",
+    "questionNumber": 8,
+    "question": "The term haptics refers to",
+    "options": {
+      "A": "Detection of the static position of our limbs",
+      "B": "Detection of the movement of our limbs",
+      "C": "Tactile pressure",
+      "D": "The sum total of cues provided by the tactile system when we actively explore an object"
+    },
+    "correctAnswer": "D",
+    "explanation": "Haptics refers to the combined sensory information obtained when we actively touch and explore objects. During active exploration, the tactile system provides information about pressure, texture, shape, movement, and other physical characteristics. This combination enables accurate recognition of objects through touch, making haptics broader than simply detecting pressure, limb position, or movement alone. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 29,
+    "week": "Week 3",
+    "questionNumber": 9,
+    "question": "Design can accommodate the needs of color limited users by employing strategies such as",
+    "options": {
+      "A": "Making text larger.",
+      "B": "Only using red and green to code information.",
+      "C": "Employing redundant cues including brightness or position where appropriate.",
+      "D": "Increasing the contrast of the stimuli."
+    },
+    "correctAnswer": "C",
+    "explanation": "Colour-limited users may be unable to distinguish certain colours reliably, so important information should never depend on colour alone. Designers can use redundant cues such as brightness, shape, position, labels, or symbols along with colour. Even if a user cannot discriminate the colour, these additional cues still allow the information to be correctly recognized and interpreted. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 30,
+    "week": "Week 3",
+    "questionNumber": 10,
+    "question": "As the frequency of a tone varies from low to high frequency we would expect to perceive a change in the tone's",
+    "options": {
+      "A": "Amplitude",
+      "B": "Frequency",
+      "C": "Duration",
+      "D": "Pitch"
+    },
+    "correctAnswer": "D",
+    "explanation": "Frequency is the physical property describing how rapidly a sound wave vibrates, whereas pitch is the psychological experience associated with that frequency. As the frequency of a tone increases, listeners generally perceive its pitch as becoming higher. Therefore, changing a tone from low to high frequency produces a corresponding perceived change from lower to higher pitch. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 31,
+    "week": "Week 4",
+    "questionNumber": 1,
+    "question": "Auditory _____ is when a second sound makes the detection of another sound more difficult.",
+    "options": {
+      "A": "Obstruction",
+      "B": "Masking",
+      "C": "Auditory suppression",
+      "D": "Interference"
+    },
+    "correctAnswer": "B",
+    "explanation": "Auditory masking occurs when the presence of one sound makes another sound more difficult to detect. The masking sound raises the detection threshold for the target sound, particularly when both sounds have similar frequencies. As the intensity of the masker increases, it can interfere with a wider range of sound frequencies and make target detection increasingly difficult. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 32,
+    "week": "Week 4",
+    "questionNumber": 2,
+    "question": "The relationship between sound amplitude and perceived intensity is such that",
+    "options": {
+      "A": "At low amplitudes, a doubling of a sound's amplitude produces large change in a sound's intensity, whereas at higher amplitudes, large increases in sound amplitude produce little changes in sound's intensity.",
+      "B": "At low amplitudes, a doubling of a sound's amplitude produces doubling of a sound's intensity and the same is observed at higher sound amplitudes.",
+      "C": "There is little change in the perception of sound intensity with changes in a sound's amplitude.",
+      "D": "At low amplitudes, a doubling of a sound's amplitude produces little change in a sound's intensity; whereas at higher amplitudes, smaller increases in sound amplitude produce large changes in sound's intensity."
+    },
+    "correctAnswer": "D",
+    "explanation": "Physical sound amplitude and perceived loudness do not have a simple linear relationship. At relatively low amplitudes, even a substantial increase in amplitude may produce only a modest increase in perceived loudness. At higher amplitudes, however, comparatively smaller increases can produce much larger changes in perceived loudness. Thus, perception changes differently across different levels of sound amplitude. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 33,
+    "week": "Week 4",
+    "questionNumber": 3,
+    "question": "The finding that the localization of sounds is based on sounds arriving first to each ear is called",
+    "options": {
+      "A": "The precedence effect",
+      "B": "The phase shift effect",
+      "C": "Interaural intensity difference effect",
+      "D": "The lagging sound effect"
+    },
+    "correctAnswer": "A",
+    "explanation": "The precedence effect explains how people localize sounds when both direct and reflected sounds reach the ears. The auditory system gives greater importance to localization information contained in the sound that arrives first, while information from later or reflected sounds is suppressed. This allows listeners to identify the apparent source of sound despite echoes and environmental reflections. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 34,
+    "week": "Week 4",
+    "questionNumber": 4,
+    "question": "One method used to gather information about human interactions in systems and processes is:",
+    "options": {
+      "A": "Interviews",
+      "B": "Literature reviews",
+      "C": "Expert consultation",
+      "D": "Reading a textbook"
+    },
+    "correctAnswer": "A",
+    "explanation": "Interviews are an important user-centered method for gathering information about how people interact with systems, products, and work processes. They usually involve one-on-one discussions between a researcher and an end user. Interviews allow researchers to obtain substantial information about users' requirements, experiences, tasks, and problems, which can subsequently guide the design or improvement of systems. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 35,
+    "week": "Week 4",
+    "questionNumber": 5,
+    "question": "All of the following are types of interviews except:",
+    "options": {
+      "A": "Structured interviews",
+      "B": "Semi-structured interviews",
+      "C": "Completely-structured interviews",
+      "D": "Unstructured interviews"
+    },
+    "correctAnswer": "C",
+    "explanation": "The book identifies three basic interview types: structured, semistructured, and unstructured. Structured interviews follow predefined questions, semistructured interviews use prepared questions with additional probing, and unstructured interviews allow relatively free discussion without predefined questions. “Completely-structured interview” is not identified as a separate interview category. Therefore, it is the exception among the options provided. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 36,
+    "week": "Week 4",
+    "questionNumber": 6,
+    "question": "“I like cake and icing” is an example of what kind of statement:",
+    "options": {
+      "A": "Leading",
+      "B": "Loaded",
+      "C": "Double-barreled",
+      "D": "Valid"
+    },
+    "correctAnswer": "C",
+    "explanation": "A double-barreled statement combines two separate issues within a single item. Saying “I like cake and icing” simultaneously asks about liking cake and liking icing. A respondent might like one but dislike the other, making a single response ambiguous. Such items should be separated into individual statements so that each concept can be evaluated independently and accurately. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 37,
+    "week": "Week 4",
+    "questionNumber": 7,
+    "question": "Two methods discussed in the chapter to evaluate the ease of use of a software application interface are:",
+    "options": {
+      "A": "Task analysis and heuristic analysis",
+      "B": "Contextual inquiry and user profile",
+      "C": "Heuristic analysis and usability testing",
+      "D": "Questionnaire and focus group"
+    },
+    "correctAnswer": "C",
+    "explanation": "Heuristic evaluation and usability testing are two major methods for evaluating the usability of an interface. Heuristic evaluation uses experts to assess whether an interface follows established usability principles. Usability testing involves representative users performing realistic tasks with the system. Together, these methods help identify usability problems and determine how effectively and easily users can interact with an application. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 38,
+    "week": "Week 4",
+    "questionNumber": 8,
+    "question": "Data collected during a usability study includes:",
+    "options": {
+      "A": "Objective data (time, success, # steps to complete)",
+      "B": "Subjective data (difficulty, satisfaction)",
+      "C": "User opinions on likes and dislikes",
+      "D": "All of the above"
+    },
+    "correctAnswer": "D",
+    "explanation": "A usability study should collect both objective and subjective information. Objective measures include task completion, time, errors, and number of steps, while subjective measures include perceived difficulty, satisfaction, confidence, preferences, likes, and dislikes. Combining both types provides a more complete assessment because users may report liking a product even when their actual task performance is relatively poor. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 39,
+    "week": "Week 4",
+    "questionNumber": 9,
+    "question": "Sam is a Human Factors professional and decides to shadow a factory worker, Emma, for a day to learn more about her job. She takes notes on Emma's work flow, tasks, environment, and interactions. Sam is conducting a:",
+    "options": {
+      "A": "Usability study",
+      "B": "Shadow box plot",
+      "C": "Contextual inquiry",
+      "D": "Task analysis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Contextual inquiry involves observing users while they perform their normal activities in their actual work environment. The researcher watches the employee and records information about tasks, workflow, workplace conditions, and interactions with others. By observing real work directly, the researcher develops a richer understanding of user requirements and everyday practices than would normally be obtained through questionnaires alone. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 40,
+    "week": "Week 4",
+    "questionNumber": 10,
+    "question": "Human error identification (HEI) is a technique used to identify potential sources of error at each task and subtask of a:",
+    "options": {
+      "A": "CTA",
+      "B": "HTA",
+      "C": "ETA",
+      "D": "None of the above"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hierarchical Task Analysis (HTA) breaks a task into goals, sub-goals, operations, and plans. This structure provides a framework for Human Error Identification because experts can examine each task and subtask systematically to determine where errors may occur. Identifying these potential error points enables designers to modify the system and reduce the likelihood of user errors before implementation. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 41,
+    "week": "Week 5",
+    "questionNumber": 1,
+    "question": "An exact copy but short lived copy of the impinging sensory information is available in the",
+    "options": {
+      "A": "Sensory register",
+      "B": "Working memory",
+      "C": "Long-term memory",
+      "D": "Short-term memory"
+    },
+    "correctAnswer": "A",
+    "explanation": "The sensory register briefly retains an almost exact representation of information arriving through the senses. This storage lasts only a very short period before the information disappears or moves into further processing. Visual and auditory information are maintained through iconic and echoic registers respectively. Thus, the sensory register represents the initial stage of human information processing. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 42,
+    "week": "Week 5",
+    "questionNumber": 2,
+    "question": "Information in the echoic register may persist for",
+    "options": {
+      "A": "A 1/2 second or less",
+      "B": "Between 4 and 9 seconds",
+      "C": "Between a 1/4 to 4 seconds",
+      "D": "For less than 10 milliseconds"
+    },
+    "correctAnswer": "C",
+    "explanation": "The echoic register is the sensory memory system responsible for briefly retaining auditory information. Unlike visual iconic information, which disappears very rapidly, auditory information may remain available for approximately one-quarter of a second to several seconds. This temporary persistence allows successive sounds, words, or speech elements to be integrated and interpreted as meaningful auditory information. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 43,
+    "week": "Week 5",
+    "questionNumber": 3,
+    "question": "Verbal rehearsal allows information to be maintained indefinitely in ________.",
+    "options": {
+      "A": "Prospective memory",
+      "B": "Meta cognition",
+      "C": "Long-term memory",
+      "D": "Short-term memory"
+    },
+    "correctAnswer": "D",
+    "explanation": "Information in short-term memory normally disappears rapidly if it is not actively maintained. Verbal rehearsal, such as repeatedly saying a telephone number to oneself, refreshes the information and prevents its immediate loss. As long as rehearsal continues successfully, information can remain available in short-term memory for an extended period rather than disappearing within its normal brief duration. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 44,
+    "week": "Week 5",
+    "questionNumber": 4,
+    "question": "A task requiring a player to imagine the placement of chess pieces on a chessboard would be expected to engage the ____________.",
+    "options": {
+      "A": "Articulatory control process",
+      "B": "Visuo-spatial sketchpad",
+      "C": "Central Executive",
+      "D": "Episodic buffer"
+    },
+    "correctAnswer": "B",
+    "explanation": "The visuospatial sketchpad is a component of Baddeley’s working-memory model that temporarily stores and manipulates visual and spatial information. Imagining where chess pieces are positioned requires maintaining their locations, spatial relationships, and possible movements. Because the task primarily depends on visual imagery and spatial processing rather than verbal rehearsal, it mainly engages the visuospatial sketchpad. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 45,
+    "week": "Week 5",
+    "questionNumber": 5,
+    "question": "Accidents sometimes occur because drivers who attend exclusively to one object in the scene or to one task. In this case the driver is relying on _____ attention when they should be ______ attention.",
+    "options": {
+      "A": "Divided; selecting",
+      "B": "Selective; dividing",
+      "C": "Sustained; selecting",
+      "D": "None of the above"
+    },
+    "correctAnswer": "B",
+    "explanation": "Selective attention involves concentrating on one source of information while ignoring others. Driving, however, requires attention to several activities and information sources simultaneously, including traffic, pedestrians, mirrors, and road signs. Therefore, excessive selective attention to one object can cause important hazards to be missed. Drivers often need to divide attention effectively across several relevant sources. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 46,
+    "week": "Week 5",
+    "questionNumber": 6,
+    "question": "The use of bright lights and sirens by police and fire vehicles is an example of the use of ________ to capture attention.",
+    "options": {
+      "A": "Effort",
+      "B": "Expectancy",
+      "C": "Saliency",
+      "D": "Value"
+    },
+    "correctAnswer": "C",
+    "explanation": "Saliency refers to how strongly a stimulus stands out from its surroundings and attracts attention. Bright flashing lights and loud sirens are highly distinctive compared with ordinary environmental stimuli. Police and fire vehicles deliberately use these intense visual and auditory signals so that road users rapidly notice them, even when their attention is currently directed toward another activity. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 47,
+    "week": "Week 5",
+    "questionNumber": 7,
+    "question": "Research suggests that one of the best predictors of crash rates is",
+    "options": {
+      "A": "Visual acuity",
+      "B": "Depth perception",
+      "C": "Working memory",
+      "D": "Selective and divided attention"
+    },
+    "correctAnswer": "D",
+    "explanation": "Safe driving depends strongly on the ability to select relevant information while simultaneously distributing attention across several sources. Research indicates that attentional abilities can predict crash involvement better than basic measures such as visual acuity or depth perception. Drivers with poorer selective attention tend to miss important hazards, while inadequate divided attention makes managing multiple driving demands more difficult. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 48,
+    "week": "Week 5",
+    "questionNumber": 8,
+    "question": "Which of the following statements is correct?",
+    "options": {
+      "A": "Decision errors are a minor concern in Emergency Medical Services (EMS) operations.",
+      "B": "Decision errors are causal factor in 30% of General Aviation (GA) accidents.",
+      "C": "Decision errors have been shown to play a minor role in weather related aviation accidents.",
+      "D": "The decision process is largely immune to training effects."
+    },
+    "correctAnswer": "B",
+    "explanation": "Decision-making errors are important in safety-critical environments such as aviation and emergency services. The text notes that decision errors contribute substantially to General Aviation accidents, accounting for approximately 30% in the cited evidence. Such errors are therefore not minor concerns. Decision performance can also be influenced by training, experience, information presentation, workload, and characteristics of the operational environment. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 49,
+    "week": "Week 5",
+    "questionNumber": 9,
+    "question": "The fictional character Sherlock Holmes is an example of",
+    "options": {
+      "A": "Normative decision making",
+      "B": "Naturalistic decision making",
+      "C": "Descriptive decision making",
+      "D": "All of the above"
+    },
+    "correctAnswer": "A",
+    "explanation": "Normative decision-making describes how an ideal rational decision maker should evaluate information and select the optimal alternative. Sherlock Holmes is commonly portrayed as carefully examining evidence, considering alternatives logically, and reaching conclusions through systematic reasoning. This idealized, highly rational approach corresponds to normative decision- making rather than descriptive models, which focus on how people actually make decisions in everyday situations. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 50,
+    "week": "Week 5",
+    "questionNumber": 10,
+    "question": "The concept of utility is central to Normative models of decision making. Which normative model acknowledges that the values individual assigns to potential outcomes may be unique and dependent on their particular goals?",
+    "options": {
+      "A": "Multiattribute Utility Theory",
+      "B": "Expected Value Theory",
+      "C": "Subjective Expected Utility",
+      "D": "Objective Expected Utility"
+    },
+    "correctAnswer": "C",
+    "explanation": "Subjective Expected Utility recognizes that the value of an outcome differs across individuals because people have different needs, preferences, and goals. Rather than assuming that outcomes have identical objective values for everyone, this model combines the probability of an outcome with its personally perceived utility. It therefore provides a more realistic extension of traditional expected-value decision models. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 51,
+    "week": "Week 6",
+    "questionNumber": 1,
+    "question": "The anchoring effect has been shown to be influenced by ______ and the _____.",
+    "options": {
+      "A": "Availability: confirmation bias",
+      "B": "Satisficing: heuristics",
+      "C": "Cue saliency: primacy effect",
+      "D": "Biases: utility"
+    },
+    "correctAnswer": "C",
+    "explanation": "Anchoring occurs when an initial value or piece of information disproportionately influences later judgments. The strength of anchoring can depend on cue saliency, or how noticeable the initial information is, and the primacy effect, where information presented first receives greater influence. Consequently, highly salient information presented early can strongly bias subsequent judgments and decisions. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 52,
+    "week": "Week 6",
+    "questionNumber": 2,
+    "question": "Medical adherence by older adults may be improved by",
+    "options": {
+      "A": "Explicit instructions",
+      "B": "Use of external aides including charts detailing when to take certain medications",
+      "C": "Use of plastic medication organizers",
+      "D": "All of the above"
+    },
+    "correctAnswer": "D",
+    "explanation": "Medication adherence can become difficult when older adults must remember several medications and different dosing schedules. The book explains that adherence can be improved through explicit and well-organized instructions, external charts showing when medicines should be taken, and medication organizers containing separate compartments. Each strategy reduces memory demands and helps users follow the correct medication schedule. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 53,
+    "week": "Week 6",
+    "questionNumber": 3,
+    "question": "The use of medical aid that confirms a doctor's diagnosis by reviewing the patient's symptoms and test results is an example of a",
+    "options": {
+      "A": "Expert system",
+      "B": "Monitoring decision aid",
+      "C": "Critiquing system",
+      "D": "None of the above"
+    },
+    "correctAnswer": "C",
+    "explanation": "A critiquing system evaluates a decision already made by a human operator and provides feedback about whether that decision appears appropriate. In medicine, such a system can review a physician's diagnosis using symptoms and test results and then confirm or question that diagnosis. It therefore supports the physician's judgment rather than independently replacing the human decision maker. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 54,
+    "week": "Week 6",
+    "questionNumber": 4,
+    "question": "The time it takes to initiate a movement is known as",
+    "options": {
+      "A": "Movement Time",
+      "B": "Decision Time",
+      "C": "Reaction Time",
+      "D": "Initiation Time"
+    },
+    "correctAnswer": "C",
+    "explanation": "Reaction time is the interval between detecting a stimulus and initiating a response to it. For example, when an operator notices an obstacle and begins moving a hand toward an emergency control, the period before the movement starts represents reaction time. It differs from movement time, which measures the duration of the physical movement after it has begun. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 55,
+    "week": "Week 6",
+    "questionNumber": 5,
+    "question": "The time it takes to complete a movement, from beginning to end, is known as",
+    "options": {
+      "A": "Reaction Time",
+      "B": "Response Selection Time",
+      "C": "Decision Time",
+      "D": "Movement Time"
+    },
+    "correctAnswer": "D",
+    "explanation": "Movement time refers to the duration required to perform a physical movement after that movement has been initiated. For instance, after a person begins reaching toward a button, movement time covers the period from the start of the hand movement until the button is reached. It is influenced by factors such as movement distance, target size, and required accuracy. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 56,
+    "week": "Week 6",
+    "questionNumber": 6,
+    "question": "According to Fitts' Law, which 2 factors determine the difficulty of a pointing task?",
+    "options": {
+      "A": "Number of stimuli and size of stimuli",
+      "B": "Size of stimuli and movement distance",
+      "C": "Movement distance and movement direction",
+      "D": "Movement distance and stimulus intensity"
+    },
+    "correctAnswer": "B",
+    "explanation": "Fitts' Law states that the difficulty of a pointing movement depends primarily on target size and movement distance. Smaller targets require greater accuracy and are therefore more difficult to reach quickly, while greater movement distances increase movement time. Consequently, large targets positioned close to the user are generally faster and easier to select than small, distant targets. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 57,
+    "week": "Week 6",
+    "questionNumber": 7,
+    "question": "The idea that feedback about the state of a movement is used to monitor and adjust that movement as it unfolds is known as",
+    "options": {
+      "A": "Open-loop control",
+      "B": "Feedforward control",
+      "C": "Closed-loop control",
+      "D": "Compensatory tracking"
+    },
+    "correctAnswer": "C",
+    "explanation": "Closed-loop control uses continuous sensory feedback to monitor a movement while it is being performed. The system compares the current position of the limb with the desired position and makes corrections when errors are detected. Therefore, the movement can be adjusted while it unfolds, unlike open-loop control, where the action proceeds without continuous feedback- based correction. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 58,
+    "week": "Week 6",
+    "questionNumber": 8,
+    "question": "Some controls are designed to be operated by hand, others by foot. The differences in these controls is described as a difference in the ______ that operates them.",
+    "options": {
+      "A": "Sense",
+      "B": "Effector",
+      "C": "Person",
+      "D": "Order of control"
+    },
+    "correctAnswer": "B",
+    "explanation": "An effector is the body part used to perform an action or interact with a control. Controls may therefore differ depending on whether they are operated by the hand, foot, or another body part. Hands permit fine and precise movements, whereas feet have different anatomical and movement capabilities. Control design should therefore correspond to the characteristics of the intended effector. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 59,
+    "week": "Week 6",
+    "questionNumber": 9,
+    "question": "______ controls can be placed into any of a number of states along a continuum, while ______ controls can only be placed into a finite number states.",
+    "options": {
+      "A": "Continuous; discrete",
+      "B": "Discrete; continuous",
+      "C": "Rotary; linear",
+      "D": "Linear; rotary"
+    },
+    "correctAnswer": "A",
+    "explanation": "Continuous controls can be positioned at many points along a continuum, allowing continuously varying inputs. Examples include steering wheels, accelerator pedals, and rotary knobs. Discrete controls, in contrast, permit only a limited number of separate states or commands, such as pressing a button or switching a light on or off. Thus, the correct pairing is continuous and discrete. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 60,
+    "week": "Week 6",
+    "questionNumber": 10,
+    "question": "It is common feature of light switches that “up” means “on” and “down” means “off”. Sometimes, light switches are mounted sideways, and then it is unclear which position means “on” or “off”. This type of design is a violation of",
+    "options": {
+      "A": "Label coding",
+      "B": "Location coding",
+      "C": "Population stereotypes",
+      "D": "Redundant coding"
+    },
+    "correctAnswer": "C",
+    "explanation": "Population stereotypes are widely learned expectations about how controls should operate or where they should be located. Users commonly expect an upward light-switch position to mean “on” and downward to mean “off.” Mounting the switch sideways removes this familiar relationship and creates uncertainty. Violating established population stereotypes can therefore increase confusion, response time, and the possibility of operational errors. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 61,
+    "week": "Week 7",
+    "questionNumber": 1,
+    "question": "When we discuss environmental design,",
+    "options": {
+      "A": "A number of factors could be considered such as noise, lighting, temperature, layout, and air quality.",
+      "B": "The main issues are generally related to layout and wayfinding.",
+      "C": "This refers to lighting and air quality.",
+      "D": "We should focus on evaporation and other critical heat exchange aspects."
+    },
+    "correctAnswer": "A",
+    "explanation": "Environmental design considers several characteristics of the surroundings that influence human comfort, safety, and performance. These include temperature, lighting, noise, air quality, and the physical arrangement of spaces. Therefore, environmental design requires considering multiple environmental conditions together rather than concentrating only on one factor such as lighting, temperature, or layout.  (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 62,
+    "week": "Week 7",
+    "questionNumber": 2,
+    "question": "The temperature we experience, not just what is indicated on a thermometer, is called",
+    "options": {
+      "A": "Air temperature",
+      "B": "Relative temperature",
+      "C": "Effective temperature",
+      "D": "Mean radiant temperature"
+    },
+    "correctAnswer": "C",
+    "explanation": "Effective temperature describes how environmental temperature is actually experienced by a person rather than simply the temperature shown by a thermometer. It reflects the combined influence of air temperature, relative humidity, and air velocity. Different combinations of these factors can therefore produce the same perceived thermal sensation even when the measured air temperatures are different. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 63,
+    "week": "Week 7",
+    "questionNumber": 3,
+    "question": "When measuring temperature,",
+    "options": {
+      "A": "Air velocity impact air temperature.",
+      "B": "Effective temperature include the effects of air velocity, relative humidity, and altitude.",
+      "C": "The mean radiant temperature is the average temperature emitted over time.",
+      "D": "The wet bulb globe temperature considering air temperature, radiant temperature, and humidity."
+    },
+    "correctAnswer": "D",
+    "explanation": "Wet-Bulb Globe Temperature, or WBGT, considers several environmental influences on heat stress, including air temperature, radiant temperature, and humidity. It also reflects some effects of air movement. Because it combines these factors, WBGT is especially useful for evaluating whether a hot environment may create excessive thermal stress for people working or exercising in it. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 64,
+    "week": "Week 7",
+    "questionNumber": 4,
+    "question": "In order to feel comfortable when the air temperature is high, we need",
+    "options": {
+      "A": "Higher relative humidity and a greater air velocity.",
+      "B": "Higher relative humidity and a lower air velocity.",
+      "C": "Lower relative humidity and a greater air velocity.",
+      "D": "Lower relative humidity and a lower air velocity."
+    },
+    "correctAnswer": "C",
+    "explanation": "When temperatures are high, lower humidity allows perspiration to evaporate more effectively from the skin. Greater air velocity further increases evaporation and heat loss, which produces a cooling effect. In contrast, high humidity limits evaporative cooling. Therefore, a combination of lower relative humidity and greater airflow generally increases comfort in hot environmental conditions. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 65,
+    "week": "Week 7",
+    "questionNumber": 5,
+    "question": "When heat exchanged between the body and environment that are not touching, this is called",
+    "options": {
+      "A": "Conduction",
+      "B": "Convection",
+      "C": "Evaporation",
+      "D": "Radiation"
+    },
+    "correctAnswer": "D",
+    "explanation": "Radiation is heat exchange between two surfaces that are not physically touching. For example, a person's body may radiate heat toward a cold window, or a warm surface may radiate heat toward the person. This differs from conduction, which requires direct contact, and convection, which involves heat transfer through moving air or fluid. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 66,
+    "week": "Week 7",
+    "questionNumber": 6,
+    "question": "One can become “fully” acclimated to the cold within",
+    "options": {
+      "A": "One or two days",
+      "B": "One or two weeks",
+      "C": "One or two months",
+      "D": "Possibly never"
+    },
+    "correctAnswer": "D",
+    "explanation": "Repeated exposure to environmental temperatures can produce physiological adjustment, but adaptation to cold is considerably more difficult than adaptation to heat. The textbook notes that cold acclimation may be difficult or even impossible. Therefore, even prolonged exposure does not guarantee complete adaptation to cold environmental conditions, making “possibly never” the appropriate answer. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 67,
+    "week": "Week 7",
+    "questionNumber": 7,
+    "question": "Heat stress appears to affect",
+    "options": {
+      "A": "Cognitive and mental activities the least.",
+      "B": "Cognitive performance, especially when humidity levels are higher.",
+      "C": "Only physical types of performances.",
+      "D": "The more boring or simple tasks more than the complex tasks."
+    },
+    "correctAnswer": "B",
+    "explanation": "Heat stress can negatively influence cognitive performance, particularly on tasks requiring vigilance, tracking, attention, and multitasking. The effects can become stronger when relative humidity is high because high humidity reduces the body's ability to cool itself through evaporation. Research discussed in the textbook shows greater performance decrements under high-temperature conditions combined with higher humidity. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 68,
+    "week": "Week 7",
+    "questionNumber": 8,
+    "question": "Performance tends to be more greatly affected",
+    "options": {
+      "A": "If the temperatures are moderate and individuals are performing vigilance tasks.",
+      "B": "On memory tasks and the environment is too hot.",
+      "C": "On perceptual tasks when it becomes too hot or too cold.",
+      "D": "When the person is performing in extreme temperatures."
+    },
+    "correctAnswer": "D",
+    "explanation": "Extreme temperatures place greater physiological and psychological demands on individuals than comfortable or moderate temperatures. Both excessive heat and severe cold can interfere with physical functioning, attention, cognitive processing, and task performance. As environmental temperature moves away from the neutral or comfort range, the likelihood of performance decrements and physiological stress generally becomes greater. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 69,
+    "week": "Week 7",
+    "questionNumber": 9,
+    "question": "Clothing",
+    "options": {
+      "A": "Has enhanced insulation the thinner and less permeable it is.",
+      "B": "Keeps us warm by adding one clo value for each layer of clothing.",
+      "C": "Provides insulation, which is measured as a clo unit.",
+      "D": "Should not allow for heat exchange."
+    },
+    "correctAnswer": "C",
+    "explanation": "Clothing affects heat exchange because it provides insulation between the body and the surrounding environment. The amount of insulation provided by clothing is measured in clo units. Higher insulation can help reduce heat loss in cold environments, while excessive insulation in warm environments may prevent adequate heat loss and contribute to heat stress or discomfort. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 70,
+    "week": "Week 7",
+    "questionNumber": 10,
+    "question": "You traveled to the desert and are beginning to get used to the heat, but not the arid weather. You are",
+    "options": {
+      "A": "Acclimating and acclimatizing.",
+      "B": "Acclimating, but still need to acclimatize.",
+      "C": "Acclimatizing, but still need to acclimate.",
+      "D": "Neither acclimating nor acclimatizing."
+    },
+    "correctAnswer": "B",
+    "explanation": "Acclimation refers to adjustment to a single environmental variable, usually temperature, whereas acclimatization involves adjustment to several environmental conditions, such as temperature and relative humidity. Here, the person is becoming accustomed specifically to the desert heat but has not adjusted to the broader arid environment. Therefore, the person is acclimating but still needs to acclimatize. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 71,
+    "week": "Week 8",
+    "questionNumber": 1,
+    "question": "Human error is",
+    "options": {
+      "A": "An action that violates some tolerance limits of a system which has little or no effect on the system or people.",
+      "B": "An action that violates some tolerance limits of a system which has the potential to affect the system or people.",
+      "C": "An action that violates the people of the system.",
+      "D": "An undesirable effect."
+    },
+    "correctAnswer": "B",
+    "explanation": "Human error refers to behavior or action that falls outside the expected or acceptable limits of performance for a particular system or situation. Such an error has the potential to affect successful system functioning or people within the system, although every error does not necessarily produce an accident or harmful consequence. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 72,
+    "week": "Week 8",
+    "questionNumber": 2,
+    "question": "When individuals perform outside of acceptable bounds of behavior for a particular system, this is known as",
+    "options": {
+      "A": "Human error.",
+      "B": "Intentional error.",
+      "C": "Mechanical error.",
+      "D": "System error."
+    },
+    "correctAnswer": "A",
+    "explanation": "Human error occurs when an individual's behavior falls outside the expected or acceptable performance boundaries established for a particular situation or system. It may involve performing an inappropriate action, failing to perform a required action, or making an incorrect decision. Importantly, human error may be either intentional or unintentional depending on how the inappropriate behavior occurs. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 73,
+    "week": "Week 8",
+    "questionNumber": 3,
+    "question": "You purposely push the button on the right thinking it will switch the channel to the station you want, but you turn off the radio instead. This is a(n)",
+    "options": {
+      "A": "Intentional error.",
+      "B": "Purposeful error.",
+      "C": "Omission error.",
+      "D": "Unintentional error."
+    },
+    "correctAnswer": "A",
+    "explanation": "An intentional error occurs when a person consciously chooses and performs an action, but that chosen action is inappropriate for achieving the intended goal. Here, the person deliberately pushes the button believing it will change the station. The action itself is intentional, even though the resulting outcome, turning off the radio, was not desired. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 74,
+    "week": "Week 8",
+    "questionNumber": 4,
+    "question": "If you perform an action out of sequence, this is a(n)",
+    "options": {
+      "A": "Commission error.",
+      "B": "Omission error.",
+      "C": "Unintentional error.",
+      "D": "Uncovered error."
+    },
+    "correctAnswer": "A",
+    "explanation": "An error of commission occurs when an action is actually performed but is performed incorrectly. This may mean carrying out the wrong action, performing it at the wrong time, completing it with insufficient quality, or performing steps in the wrong sequence. In contrast, an omission error occurs when a required action is completely skipped or forgotten. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 75,
+    "week": "Week 8",
+    "questionNumber": 5,
+    "question": "Driving home from work, Sarah absent-mindedly turned at the wrong intersection. She realized immediately that it was the wrong intersection. This is an example of a",
+    "options": {
+      "A": "Knowledge-based error",
+      "B": "Mistake",
+      "C": "Rule-based error",
+      "D": "Skill-based error"
+    },
+    "correctAnswer": "D",
+    "explanation": "Skill-based behavior involves highly practiced and largely automatic actions that require little conscious attention. Sarah's driving home is a familiar, overlearned activity, and her absent-minded wrong turn results from automatic behavior rather than deliberate problem solving. Such errors commonly occur when an habitual response is automatically performed even though the current situation requires something different. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 76,
+    "week": "Week 8",
+    "questionNumber": 6,
+    "question": "According to the Generic Error-Modeling System, after realizing he processed an order incorrectly Jim would",
+    "options": {
+      "A": "Apply “in the world” knowledge.",
+      "B": "Move into rule-based processing.",
+      "C": "Start with knowledge-based process.",
+      "D": "Use skill-based solutions."
+    },
+    "correctAnswer": "B",
+    "explanation": "According to the Generic Error-Modeling System (GEMS), people normally operate at the skill-based level during routine activity. Once they detect that a problem or error has occurred, they move to rule-based processing and search for a previously learned solution. Knowledge-based processing is used only when available rules cannot adequately resolve the novel problem. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 77,
+    "week": "Week 8",
+    "questionNumber": 7,
+    "question": "The extent to which individuals are error free defines",
+    "options": {
+      "A": "Human error limits.",
+      "B": "Human performance shaping factors.",
+      "C": "Human reliability.",
+      "D": "Human reliability analysis."
+    },
+    "correctAnswer": "C",
+    "explanation": "Human reliability refers to the extent or likelihood that a person will perform without making errors. Greater reliability therefore means a lower probability of human error. It is distinct from human reliability analysis, which is a systematic method for identifying potential human errors, estimating their probabilities, and evaluating their possible consequences within a larger system. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 78,
+    "week": "Week 8",
+    "questionNumber": 8,
+    "question": "To complete a human reliability analysis, we will start with an incident and then work backwards to determine the events leading up to this error. This is called a(n)",
+    "options": {
+      "A": "Dynamic faulty management system.",
+      "B": "Event tree.",
+      "C": "Fault tree.",
+      "D": "Performance shaping factor analysis."
+    },
+    "correctAnswer": "C",
+    "explanation": "A fault tree begins with a particular failure, error, or undesirable incident and works backwards to identify the sequence of events and contributing conditions that could have produced it. This differs from an event tree, which generally begins from an initiating point and follows possible events forward. Fault-tree reasoning is therefore appropriate for retrospective error analysis. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 79,
+    "week": "Week 8",
+    "questionNumber": 9,
+    "question": "Near misses are",
+    "options": {
+      "A": "Accidents.",
+      "B": "Errors that do not cause accidents.",
+      "C": "Errors that lead to mistakes.",
+      "D": "The same as an accident."
+    },
+    "correctAnswer": "B",
+    "explanation": "A near miss involves an error or potentially dangerous event that could have resulted in an accident but did not actually produce the harmful consequence. For example, knocking over a drink but catching it before it spills is a near miss. Studying near misses is important because they reveal weaknesses in a system before actual accidents occur. (Introduction to Human Factors: Applying Psychology to Design)"
+  },
+  {
+    "id": 80,
+    "week": "Week 8",
+    "questionNumber": 10,
+    "question": "Expertise level, sleep deprivation, and stress are all examples of",
+    "options": {
+      "A": "Cultural factors that impact error severity.",
+      "B": "Individual factors that can contribute to errors.",
+      "C": "Organizational structure related to error.",
+      "D": "Systems factors that cause errors."
+    },
+    "correctAnswer": "B",
+    "explanation": "Expertise, sleep deprivation, and stress are characteristics or conditions associated with the individual operator and can influence the probability of error. Greater expertise generally reduces workload and error, whereas sleep deprivation can impair memory, concentration, perception, and reaction time. Stress can similarly disrupt performance when perceived demands exceed the person's available abilities and resources. (Introduction to Human Factors: Applying Psychology to Design)"
+  }
+]
