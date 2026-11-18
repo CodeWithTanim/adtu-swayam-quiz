@@ -1,10 +1,7 @@
 import mongoose from "mongoose";
 
-const MONGODB_URI = process.env.MONGODB_URI;
-
-if (!MONGODB_URI) {
-  throw new Error("Please define the MONGODB_URI environment variable inside .env");
-}
+const DEFAULT_URI =
+  "mongodb://swayam-test:AHUomII2J2SpOU76@ac-kkmkuw6-shard-00-00.3umsmo6.mongodb.net:27017,ac-kkmkuw6-shard-00-01.3umsmo6.mongodb.net:27017,ac-kkmkuw6-shard-00-02.3umsmo6.mongodb.net:27017/?ssl=true&replicaSet=atlas-34ki4c-shard-0&authSource=admin";
 
 interface MongooseCache {
   conn: typeof mongoose | null;
@@ -22,6 +19,8 @@ if (!global.mongooseCache) {
 }
 
 export async function connectToDatabase() {
+  const uri = process.env.MONGODB_URI || DEFAULT_URI;
+
   if (cached.conn) {
     return cached.conn;
   }
@@ -32,7 +31,7 @@ export async function connectToDatabase() {
       dbName: process.env.MONGODB_DATABASE_NAME || "swayam-owntest",
     };
 
-    cached.promise = mongoose.connect(MONGODB_URI as string, opts).then((mongooseInstance) => {
+    cached.promise = mongoose.connect(uri, opts).then((mongooseInstance) => {
       return mongooseInstance;
     });
   }
